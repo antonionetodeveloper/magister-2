@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.magister2",
+    "appName": "magister2",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+}

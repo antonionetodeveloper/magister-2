@@ -1,0 +1,16 @@
+.carousel-indicators {
+    margin-bottom: 0px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1 !important;
+    margin: 4px;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}

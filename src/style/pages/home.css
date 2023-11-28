@@ -1,0 +1,18 @@
+@media (max-width: 1200px) {
+    section p {
+        font-size: 10pt !important;
+    }
+
+    .mobile-home-section {
+        flex-direction: column;
+        justify-content: center !important;
+    }
+
+    .news-component {
+        width: 100% !important;
+    }
+
+    .carousel-container {
+        display: none !important;
+    }
+}

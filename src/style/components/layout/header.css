@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.style-header {
+  position: fixed;
+  background: rgb(25, 68, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 68, 151, 1) 0%,
+    rgba(25, 68, 151, 1) 41%,
+    rgba(42, 81, 158, 1) 54%
+  );
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  z-index: 3;
+}
+
+.logo {
+  height: 80px;
+  background-color: white;
+  border-radius: 0px 30px 0px 0px;
+  color: #616265;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  padding-right: 1.5rem;
+  text-decoration: none;
+}
+
+
+.logo img {
+  height: 100%;
+  display: inline-block;
+  margin-left: 1vw;
+}
+
+.letterlogo {
+  display: inline-block;
+  padding-left: 5%;
+}
+
+.letterlogo p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.titulo {
+  font-size: 20pt;
+  text-wrap: nowrap;
+}
+
+.subtitulo {
+  font-size: 10pt;
+  text-wrap: nowrap;
+}
+
+.bar-nav {
+  width: 100%;
+  height: 80px;
+  background-color: #194497;
+  border-radius: 0px 30px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.icone {
+  cursor: pointer;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.icone:hover {
+  background-color: rgba(15, 47, 109, 0.784);
+}
+
+.icone img {
+  max-width: 4rem;
+  margin: auto;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+.icone p {
+  position: relative;
+  display: none;
+  height: 100%;
+}
+
+.barra {
+  width: 1px;
+  height: 40px;
+  background-color: rgba(15, 47, 109, 0.784);
+}
+
+.perfil {
+  width: 25%;
+  height: 80px;
+  background-color: #2a519e;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.foto {
+  height: 100%;
+  display: flex;
+}
+
+.foto img {
+  height: 90%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.info {
+  background-color: #2a519e;
+  text-wrap: wrap;
+  padding: 2%;
+  height: 100%;
+  font-size: 10pt;
+  color: white;
+  font-style: normal;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info p {
+  margin-top: 0px;
+  margin-bottom: 0rem;
+}
+
+.info a {
+  color: white;
+}
+
+
+@media (max-width: 1310px) {
+  .perfil {
+    width: auto;
+  }
+  .info {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .bar-nav .icone img {
+    max-width: 3rem !important;
+  }
+  .letterlogo {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .bar-nav {
+    display: none;
+  }
+}

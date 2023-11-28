@@ -1,0 +1,240 @@
+section {
+  margin-top: 8rem;
+}
+
+.section > div:nth-child(1) {
+  right: 2rem;
+  top: 110px;
+}
+
+.botao_imagem {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  left: 10%;
+  z-index: 3;
+}
+
+.botao_imagem img {
+  width: 35px;
+  display: flex;
+}
+
+.botao_login {
+  font-weight: 500;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin: 5rem auto 0px auto;
+}
+
+.content-container > h2 {
+  font-weight: 600;
+  opacity: 0.5;
+  font-size: 28pt;
+  width: 100%;
+  padding-left: 1rem;
+  text-align: start;
+  text-decoration: underline;
+}
+
+.content-container > div {
+  background-color: #e2ebed;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.content-container > div > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content-container > div > div h3,
+.content-container > div > div p {
+  margin: 0px;
+}
+
+.content-container > div > div h3 {
+  font-weight: 600;
+  font-size: 16pt;
+  width: 40%;
+  height: fit-content;
+}
+
+.content-container > div > div > div {
+  width: 12rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.content-container > div > div > div > img {
+  width: 100%;
+  padding: 20px;
+}
+
+.content-container > div > div p {
+  text-align: justify;
+}
+
+@media (max-width: 1150px) {
+  section {
+    margin-top: 4rem;
+  }
+
+  .section > div:nth-child(1) {
+    right: 0;
+    top: 20px;
+  }
+
+  .botao_imagem {
+    left: 5%;
+  }
+
+  .content-container {
+    width: 90vw;
+  }
+
+  .content-container > h2 {
+    font-size: 24pt;
+  }
+
+  .content-container > div > div h3 {
+    font-size: 14pt;
+    width: 50%;
+  }
+
+  .content-container > div > div > div {
+    width: 14rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .content-container > div > div > div > img {
+    width: 100%;
+    padding: 10px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  section {
+    margin-top: 4rem;
+  }
+
+  .section > div:nth-child(1) {
+    right: 0;
+    top: 20px;
+  }
+
+  .botao_imagem {
+    left: 5%;
+  }
+
+  .content-container {
+    width: 90vw;
+  }
+
+  .content-container > h2 {
+    font-size: 24pt;
+  }
+
+  .content-container > div > div h3 {
+    font-size: 14pt;
+    width: 50%;
+  }
+
+  .content-container > div > div > div {
+    width: 16rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .content-container > div > div > div > img {
+    width: 100%;
+    padding: 10px;
+  }
+
+
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+
+    h2 {
+      font-size: 24pt;
+    }
+
+    .content-container > div > div h3 {
+      font-size: 14pt;
+    }
+
+    .content-container > div > div p {
+      font-size: 12pt;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    margin-top: 2rem;
+  }
+
+  .section > div:nth-child(1) {
+    right: 0;
+    top: 10px;
+  }
+
+  .botao_imagem {
+    left: 3%;
+  }
+
+  .content-container {
+    width: 95vw;
+  }
+
+  .content-container > h2 {
+    font-size: 20pt;
+  }
+
+  .content-container > div > div h3 {
+    font-size: 12pt;
+    width: 60%;
+  }
+
+  .content-container > div > div > div {
+    width: 18%;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .content-container > div > div > div > img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 24pt;
+  }
+
+  .content-container > div > div h3 {
+    font-size: 13pt;
+  }
+
+  .content-container > div > div p {
+    display: none;
+  }
+}
